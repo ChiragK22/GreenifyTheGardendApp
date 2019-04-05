@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=06:0F:11:48:FD:19:DB:54:2A:B2:FF:31:6B:32:3B:FD:18:46:A1:3E%3Bcom.example.admin.greenifythegardenapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    06:0F:11:48:FD:19:DB:54:2A:B2:FF:31:6B:32:3B:FD:18:46:A1:3E
+
+    SHA-1 certificate fingerprint:
+    06:0F:11:48:FD:19:DB:54:2A:B2:FF:31:6B:32:3B:FD:18:46:A1:3E
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBwKOoSPWZWhM_KQ3GNb1ZvJPERwQGWPC8</string>
+
+</resources>

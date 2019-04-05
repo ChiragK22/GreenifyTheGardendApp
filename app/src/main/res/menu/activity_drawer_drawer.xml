@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Guide"
+            android:icon="@drawable/guide"
+            android:title="Guide" />
+        <item
+            android:id="@+id/nav_ToolShop"
+            android:icon="@drawable/tool_shop"
+            android:title="ToolShop" />
+        <item
+            android:id="@+id/nav_Ngo"
+            android:icon="@drawable/ngo_ngo"
+            android:title="NGO" />
+        <item
+            android:id="@+id/nav_Event"
+            android:icon="@drawable/event"
+            android:title="EVENT" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_find"
+
+                android:title="Find on map" />
+            <item
+                android:id="@+id/nav_feedback"
+
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_setting"
+
+                android:title="Setting" />
+
+
+
+        </menu>
+    </item>
+
+</menu>
